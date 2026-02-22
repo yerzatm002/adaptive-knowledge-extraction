@@ -4,18 +4,13 @@ uvicorn[standard]==0.30.6
 SQLAlchemy==2.0.34
 psycopg2-binary==2.9.9
 
+numpy==1.26.4
 pandas==2.2.2
+scikit-learn==1.4.2
 joblib==1.4.2
 
-# ВАЖНО: scikit-learn и numpy должны совпадать с тем окружением,
-# где были сохранены ваши .joblib модели.
-# Если вы не уверены — поставим временно, а позже подгоним под модели.
-numpy==2.0.2
-scikit-learn==1.5.2
-
-# Supabase storage (python client)
 supabase==2.6.0
 
-python-multipart==0.0.9   # чтобы FastAPI принимал upload файлов
+python-multipart==0.0.9
 pydantic==2.8.2
-python-dotenv==1.0.1      # удобно для локальных env
+python-dotenv==1.0.1
