@@ -1,0 +1,2054 @@
+[
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A > 0.500000 AND loan_intent_VENTURE > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.04415394107666204,
+      "samples": 1145
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A <= 0.500000 AND loan_grade_E <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_grade_B > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.037444084528767546,
+      "samples": 971
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length <= 1.500000 AND person_home_ownership_RENT > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.021517815826006478,
+      "samples": 558
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income <= 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.014152398580903903,
+      "samples": 367
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00890791300323924,
+      "samples": 231
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_grade_C <= 0.500000 AND loan_int_rate > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.008290914699984575,
+      "samples": 215
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND person_income > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.005591547123245411,
+      "samples": 145
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D > 0.500000 AND person_income > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.004241863334875829,
+      "samples": 110
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_emp_length <= 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0033934906679006635,
+      "samples": 88
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt > 2.500000 AND loan_amnt > 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00331636587999383,
+      "samples": 86
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0032006786981335802,
+      "samples": 83
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt <= 2.500000 AND loan_amnt <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0031235539102267467,
+      "samples": 81
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.002776492364645997,
+      "samples": 72
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt <= 2.500000 AND loan_amnt > 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0023137436372049976,
+      "samples": 60
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt > 2.500000 AND loan_amnt <= 3.500000 AND person_emp_length > 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0020052444855776647,
+      "samples": 52
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL <= 0.500000 AND person_emp_length <= 1.500000 AND person_home_ownership_RENT > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0010411846367422489,
+      "samples": 27
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND cb_person_cred_hist_length > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0010411846367422489,
+      "samples": 27
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income > 3.500000 AND person_age <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0009640598488354157,
+      "samples": 25
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND loan_grade_C > 0.500000 AND loan_amnt > 1.500000 AND cb_person_cred_hist_length > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0009254974548819991,
+      "samples": 24
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length <= 1.500000 AND loan_grade_C <= 0.500000 AND loan_intent_VENTURE <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0009254974548819991,
+      "samples": 24
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND cb_person_cred_hist_length > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0008869350609285824,
+      "samples": 23
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C > 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_amnt > 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0008869350609285824,
+      "samples": 23
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E <= 0.500000 AND person_emp_length > 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0008869350609285824,
+      "samples": 23
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 1.500000 AND loan_grade_D <= 0.500000 AND loan_grade_B <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0008869350609285824,
+      "samples": 23
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt <= 1.500000 AND loan_amnt <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0008098102730217492,
+      "samples": 21
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 1.500000 AND loan_amnt <= 2.500000 AND loan_intent_EDUCATION <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0008098102730217492,
+      "samples": 21
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D > 0.500000 AND person_income <= 0.500000 AND loan_percent_income <= 2.500000 AND loan_intent_VENTURE <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0007712478790683325,
+      "samples": 20
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_grade_C > 0.500000 AND loan_int_rate > 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0006941230911614993,
+      "samples": 18
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND person_income > 0.500000 AND person_income <= 1.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0005784359093012494,
+      "samples": 15
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND loan_grade_C <= 0.500000 AND cb_person_default_on_file_Y > 0.500000 AND person_income > 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0005013111213944162,
+      "samples": 13
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION > 0.500000 AND loan_grade_C <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0005013111213944162,
+      "samples": 13
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 1.500000 AND loan_amnt > 2.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00046274872744099955,
+      "samples": 12
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age <= 1.500000 AND loan_amnt <= 0.500000 AND loan_int_rate > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00042418633348758293,
+      "samples": 11
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND cb_person_cred_hist_length <= 3.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_amnt <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00042418633348758293,
+      "samples": 11
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND person_emp_length > 1.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00030849915162733303,
+      "samples": 8
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A <= 0.500000 AND loan_grade_E > 0.500000 AND loan_intent_EDUCATION > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00030849915162733303,
+      "samples": 8
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND cb_person_cred_hist_length <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00030849915162733303,
+      "samples": 8
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND person_age > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00019281196976708313,
+      "samples": 5
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt <= 1.500000 AND loan_amnt > 0.500000 AND cb_person_cred_hist_length > 1.500000 AND person_emp_length > 3.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00019281196976708313,
+      "samples": 5
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D > 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00015424957581366652,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND loan_grade_C > 0.500000 AND loan_amnt > 1.500000 AND cb_person_cred_hist_length <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00015424957581366652,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length <= 1.500000 AND loan_grade_C <= 0.500000 AND loan_intent_VENTURE > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00015424957581366652,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND person_emp_length <= 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.349647"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND cb_person_cred_hist_length > 1.000000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.356275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND cb_person_cred_hist_length > 3.500000 AND person_home_ownership_OWN <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.356275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND person_emp_length <= 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.357274"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND loan_grade_C > 0.500000 AND loan_amnt <= 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.357274"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E <= 0.500000 AND person_emp_length <= 0.500000 AND person_income <= 1.500000 AND loan_amnt > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.357274"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E <= 0.500000 AND person_emp_length <= 0.500000 AND person_income > 1.500000 AND loan_grade_D > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E > 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length <= 1.500000 AND loan_grade_C > 0.500000 AND loan_intent_EDUCATION > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age <= 1.500000 AND loan_amnt > 0.500000 AND person_home_ownership_MORTGAGE <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age > 1.500000 AND cb_person_default_on_file_N <= 0.500000 AND loan_percent_income <= 1.000000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION > 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income <= 1.500000 AND cb_person_cred_hist_length > 3.500000 AND loan_intent_VENTURE > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND cb_person_cred_hist_length > 3.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.358278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND cb_person_cred_hist_length <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND cb_person_cred_hist_length > 0.500000 AND person_emp_length > 3.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 1.500000 AND loan_grade_D > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_amnt > 0.500000 AND loan_grade_F > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL > 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND cb_person_cred_hist_length <= 1.000000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND person_age <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND cb_person_cred_hist_length <= 3.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt <= 1.500000 AND loan_amnt > 0.500000 AND cb_person_cred_hist_length <= 1.500000 AND person_home_ownership_OTHER > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.359276"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E <= 0.500000 AND person_emp_length <= 0.500000 AND person_income <= 1.500000 AND loan_amnt <= 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E <= 0.500000 AND person_emp_length <= 0.500000 AND person_income > 1.500000 AND loan_grade_D <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 3.856239395341663e-05,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL > 0.500000 AND person_income > 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9980327695974619,
+      "coverage": 0.005514422335338578,
+      "samples": 143
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt <= 2.500000 AND loan_amnt > 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND person_emp_length <= 2.500000 AND loan_grade_D > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9954324770133829,
+      "coverage": 0.002390868425111831,
+      "samples": 62
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt > 2.500000 AND loan_amnt <= 3.500000 AND person_emp_length <= 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_emp_length > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9953567051028754,
+      "coverage": 0.002352306031158414,
+      "samples": 61
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt <= 1.500000 AND loan_amnt > 0.500000 AND cb_person_cred_hist_length <= 1.500000 AND person_home_ownership_OTHER <= 0.500000 AND person_emp_length > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9838021410536177,
+      "coverage": 0.0006941230911614993,
+      "samples": 18
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt > 2.500000 AND loan_amnt <= 3.500000 AND person_emp_length <= 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_emp_length <= 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9828071802987446,
+      "coverage": 0.010488971155329322,
+      "samples": 272
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_C <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9797695571055471,
+      "coverage": 0.005051673607897578,
+      "samples": 131
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt > 2.500000 AND loan_amnt <= 3.500000 AND person_emp_length <= 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_int_rate <= 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9785188376838906,
+      "coverage": 0.0021209316674379143,
+      "samples": 55
+    },
+    "created_at": "2026-02-21T23:40:14.360275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND loan_amnt <= 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9727723604169367,
+      "coverage": 0.00042418633348758293,
+      "samples": 11
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_home_ownership_OWN <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9698383150728646,
+      "coverage": 0.0007712478790683325,
+      "samples": 20
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9640230034543246,
+      "coverage": 0.0006555606972080826,
+      "samples": 17
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A > 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_income > 3.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.962253024101812,
+      "coverage": 0.046159185562239705,
+      "samples": 1197
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_emp_length <= 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9601847187532362,
+      "coverage": 0.0011954342125559156,
+      "samples": 31
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A <= 0.500000 AND loan_grade_E > 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_emp_length <= 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9529312491354267,
+      "coverage": 0.0007712478790683325,
+      "samples": 20
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND person_income <= 0.500000 AND person_home_ownership_OWN <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9515739946117423,
+      "coverage": 0.0005013111213944162,
+      "samples": 13
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_emp_length > 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9469881094825007,
+      "coverage": 0.006015733456732994,
+      "samples": 156
+    },
+    "created_at": "2026-02-21T23:40:14.361278"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt > 2.500000 AND loan_amnt <= 3.500000 AND person_emp_length <= 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_int_rate > 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9434158055257145,
+      "coverage": 0.0006555606972080826,
+      "samples": 17
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_amnt > 0.500000 AND loan_grade_F <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.9416594840411336,
+      "coverage": 0.006786981335801327,
+      "samples": 176
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A > 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_income <= 3.500000 AND person_age > 3.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.9414203420303004,
+      "coverage": 0.027032238161345055,
+      "samples": 701
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION > 0.500000 AND loan_grade_C > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9346018566568645,
+      "coverage": 0.00019281196976708313,
+      "samples": 5
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt <= 1.500000 AND loan_amnt > 0.500000 AND cb_person_cred_hist_length > 1.500000 AND person_emp_length <= 3.500000 AND person_emp_length <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9225354357239451,
+      "coverage": 0.0005013111213944162,
+      "samples": 13
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income > 1.500000 AND loan_amnt <= 0.500000 AND loan_percent_income > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.914662774249857,
+      "coverage": 0.0007712478790683325,
+      "samples": 20
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A > 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_income > 3.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.91301435879162,
+      "coverage": 0.00890791300323924,
+      "samples": 231
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL > 0.500000 AND person_income <= 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9113880237014532,
+      "coverage": 0.0049359864260373285,
+      "samples": 128
+    },
+    "created_at": "2026-02-21T23:40:14.362292"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9028099592799265,
+      "coverage": 0.0006941230911614993,
+      "samples": 18
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_amnt <= 0.500000 AND loan_percent_income > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.9018360761137006,
+      "coverage": 0.0009640598488354157,
+      "samples": 25
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND loan_grade_C <= 0.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_grade_D <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8993137855424468,
+      "coverage": 0.0005398735153478328,
+      "samples": 14
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length <= 1.500000 AND loan_grade_C > 0.500000 AND loan_intent_EDUCATION <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8993137855424468,
+      "coverage": 0.0002699367576739164,
+      "samples": 7
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_grade_C <= 0.500000 AND loan_int_rate <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8966602401281227,
+      "coverage": 0.0024679932130186643,
+      "samples": 64
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt <= 2.500000 AND loan_amnt > 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND person_emp_length > 2.500000 AND loan_int_rate > 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8844714387157607,
+      "coverage": 0.0016967453339503317,
+      "samples": 44
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length <= 1.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_F <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8831397293774297,
+      "coverage": 0.0021594940613913313,
+      "samples": 56
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate <= 3.500000 AND person_income <= 3.500000 AND person_income <= 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8788428296744201,
+      "coverage": 0.01156871818602499,
+      "samples": 300
+    },
+    "created_at": "2026-02-21T23:40:14.363275"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age <= 1.500000 AND loan_amnt <= 0.500000 AND loan_int_rate <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8772324811118568,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND cb_person_cred_hist_length <= 3.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_amnt > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8772324811118568,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age <= 1.500000 AND loan_amnt > 0.500000 AND person_home_ownership_MORTGAGE > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8772324811118567,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND cb_person_cred_hist_length <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8772324811118567,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length <= 1.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_F > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8772324811118567,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D > 0.500000 AND person_income <= 0.500000 AND loan_percent_income > 2.500000 AND loan_amnt <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8772324811118567,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income > 1.500000 AND loan_amnt > 0.500000 AND loan_intent_MEDICAL > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8704249672241231,
+      "coverage": 0.0009640598488354157,
+      "samples": 25
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND cb_person_default_on_file_N > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8675500297784714,
+      "coverage": 0.0013111213944161653,
+      "samples": 34
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt <= 2.500000 AND loan_amnt > 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND person_emp_length <= 2.500000 AND loan_grade_D <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8547463896401324,
+      "coverage": 0.017353077279037482,
+      "samples": 450
+    },
+    "created_at": "2026-02-21T23:40:14.364273"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL <= 0.500000 AND person_emp_length > 1.500000 AND loan_int_rate <= 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.85260618111716,
+      "coverage": 0.002506555606972081,
+      "samples": 65
+    },
+    "created_at": "2026-02-21T23:40:14.365277"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length <= 1.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_VENTURE <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8490282333186584,
+      "coverage": 0.005360172759524912,
+      "samples": 139
+    },
+    "created_at": "2026-02-21T23:40:14.365277"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A > 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_income <= 3.500000 AND person_age <= 3.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8404464271833348,
+      "coverage": 0.11846367422489588,
+      "samples": 3072
+    },
+    "created_at": "2026-02-21T23:40:14.365277"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income > 3.500000 AND person_age > 0.500000 AND loan_percent_income <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8386600641369101,
+      "coverage": 0.0052830479716180784,
+      "samples": 137
+    },
+    "created_at": "2026-02-21T23:40:14.365277"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A <= 0.500000 AND loan_grade_E <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_income > 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8180800109578271,
+      "coverage": 0.12899120777417863,
+      "samples": 3345
+    },
+    "created_at": "2026-02-21T23:40:14.365277"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income <= 1.500000 AND cb_person_cred_hist_length <= 3.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.817463535050497,
+      "coverage": 0.001966682091624248,
+      "samples": 51
+    },
+    "created_at": "2026-02-21T23:40:14.365277"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_int_rate <= 0.500000 AND loan_amnt > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8110269268674856,
+      "coverage": 0.005668671911152244,
+      "samples": 147
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND person_income <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.8076353417010046,
+      "coverage": 0.0037019898195279964,
+      "samples": 96
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_grade_D > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.8007702543068809,
+      "coverage": 0.0006555606972080826,
+      "samples": 17
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_amnt <= 0.500000 AND loan_percent_income <= 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7880743541084523,
+      "coverage": 0.007712478790683325,
+      "samples": 200
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt <= 1.500000 AND loan_amnt > 0.500000 AND cb_person_cred_hist_length <= 1.500000 AND person_home_ownership_OTHER <= 0.500000 AND person_emp_length <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7813126638901744,
+      "coverage": 0.00015424957581366652,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C <= 0.500000 AND loan_intent_EDUCATION > 0.500000 AND person_emp_length > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7813126638901744,
+      "coverage": 0.00015424957581366652,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_emp_length > 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7813126638901744,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D > 0.500000 AND person_income <= 0.500000 AND loan_percent_income <= 2.500000 AND loan_intent_VENTURE > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7813126638901744,
+      "coverage": 7.712478790683326e-05,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7813126638901743,
+      "coverage": 0.0008483726669751659,
+      "samples": 22
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND cb_person_cred_hist_length > 0.500000 AND person_emp_length <= 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7813126638901743,
+      "coverage": 0.00038562393953416626,
+      "samples": 10
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate <= 3.500000 AND person_income > 3.500000 AND person_age > 1.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7777143891561573,
+      "coverage": 0.0010411846367422489,
+      "samples": 27
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate <= 3.500000 AND person_income <= 3.500000 AND person_income > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7703554616934013,
+      "coverage": 0.009794848064167824,
+      "samples": 254
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL <= 0.500000 AND person_income <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7698340530957556,
+      "coverage": 0.003509177849760913,
+      "samples": 91
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_C > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7576430994417584,
+      "coverage": 0.0011568718186024988,
+      "samples": 30
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income <= 3.500000 AND person_home_ownership_MORTGAGE <= 0.500000 AND loan_amnt <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7562280987592426,
+      "coverage": 0.005591547123245411,
+      "samples": 145
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D > 0.500000 AND person_income <= 0.500000 AND loan_percent_income > 2.500000 AND loan_amnt > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7548341037244986,
+      "coverage": 0.00046274872744099955,
+      "samples": 12
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate <= 3.500000 AND person_income > 3.500000 AND person_age <= 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7485720197146256,
+      "coverage": 0.00042418633348758293,
+      "samples": 11
+    },
+    "created_at": "2026-02-21T23:40:14.366335"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A <= 0.500000 AND loan_grade_E <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_grade_B <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7464140756941199,
+      "coverage": 0.013766774641369736,
+      "samples": 357
+    },
+    "created_at": "2026-02-21T23:40:14.368380"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt > 3.500000 AND person_income > 1.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND cb_person_default_on_file_N <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7463380878332689,
+      "coverage": 0.0011954342125559156,
+      "samples": 31
+    },
+    "created_at": "2026-02-21T23:40:14.368380"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 1.500000 AND loan_grade_D <= 0.500000 AND loan_grade_B > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7367709916721883,
+      "coverage": 0.0008483726669751659,
+      "samples": 22
+    },
+    "created_at": "2026-02-21T23:40:14.368380"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7282279224124504,
+      "coverage": 0.0002699367576739164,
+      "samples": 7
+    },
+    "created_at": "2026-02-21T23:40:14.368380"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income <= 3.500000 AND person_home_ownership_MORTGAGE > 0.500000 AND person_age <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7231738253230162,
+      "coverage": 0.0011954342125559156,
+      "samples": 31
+    },
+    "created_at": "2026-02-21T23:40:14.368380"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income > 3.500000 AND person_age > 0.500000 AND loan_percent_income > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7200100534369533,
+      "coverage": 0.006285670214406911,
+      "samples": 163
+    },
+    "created_at": "2026-02-21T23:40:14.368380"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income <= 0.500000 AND loan_amnt <= 2.500000 AND loan_amnt > 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND person_emp_length > 2.500000 AND loan_int_rate <= 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7094817920722547,
+      "coverage": 0.005128798395804411,
+      "samples": 133
+    },
+    "created_at": "2026-02-21T23:40:14.368380"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A <= 0.500000 AND loan_grade_E > 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_emp_length > 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.7043017293821152,
+      "coverage": 0.00019281196976708313,
+      "samples": 5
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D <= 0.500000 AND loan_grade_A <= 0.500000 AND loan_grade_E <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_income <= 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.7011604864544545,
+      "coverage": 0.11252506555606973,
+      "samples": 2918
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length <= 1.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_VENTURE > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.6978078728648294,
+      "coverage": 0.0014268085762764152,
+      "samples": 37
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age > 1.500000 AND cb_person_default_on_file_N > 0.500000 AND person_emp_length <= 1.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.6912797696140426,
+      "coverage": 0.0006941230911614993,
+      "samples": 18
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_grade_D <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.6862593397215486,
+      "coverage": 0.03671139904365263,
+      "samples": 952
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt <= 1.500000 AND loan_amnt > 0.500000 AND cb_person_cred_hist_length > 1.500000 AND person_emp_length <= 3.500000 AND person_emp_length > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.6747431540113857,
+      "coverage": 0.0018895573037174148,
+      "samples": 49
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND loan_grade_C <= 0.500000 AND cb_person_default_on_file_Y > 0.500000 AND person_income <= 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.6712218716094781,
+      "coverage": 0.00042418633348758293,
+      "samples": 11
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND person_income <= 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.6620801227525935,
+      "coverage": 0.00030849915162733303,
+      "samples": 8
+    },
+    "created_at": "2026-02-21T23:40:14.369384"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E <= 0.500000 AND person_emp_length > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_amnt > 3.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.6555645844029118,
+      "coverage": 0.0015039333641832485,
+      "samples": 39
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 1.500000 AND loan_amnt > 2.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.6468065212916544,
+      "coverage": 0.018548511491593398,
+      "samples": 481
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income <= 1.500000 AND cb_person_cred_hist_length > 3.500000 AND loan_intent_VENTURE <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.641110021200519,
+      "coverage": 0.0006941230911614993,
+      "samples": 18
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND loan_grade_C > 0.500000 AND loan_int_rate <= 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.641110021200519,
+      "coverage": 0.00023137436372049977,
+      "samples": 6
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 1.500000 AND loan_amnt <= 2.500000 AND loan_intent_EDUCATION > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.641110021200519,
+      "coverage": 0.00023137436372049977,
+      "samples": 6
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C <= 0.500000 AND loan_intent_EDUCATION <= 0.500000 AND person_home_ownership_OWN > 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.641110021200519,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C > 0.500000 AND person_home_ownership_OWN > 0.500000 AND loan_amnt <= 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.641110021200519,
+      "coverage": 0.00011568718186024989,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income <= 3.500000 AND person_home_ownership_MORTGAGE <= 0.500000 AND loan_amnt > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.6306383661385366,
+      "coverage": 0.013689649853462903,
+      "samples": 355
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND loan_amnt > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.6089698482689363,
+      "coverage": 0.0021594940613913313,
+      "samples": 56
+    },
+    "created_at": "2026-02-21T23:40:14.370378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_int_rate > 0.500000 AND loan_percent_income > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.5987818617222312,
+      "coverage": 0.01727595249113065,
+      "samples": 448
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL <= 0.500000 AND person_emp_length <= 1.500000 AND person_home_ownership_RENT <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5950533389961776,
+      "coverage": 0.0009640598488354157,
+      "samples": 25
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income > 0.500000 AND loan_grade_D > 0.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL <= 0.500000 AND person_emp_length > 1.500000 AND loan_int_rate > 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.59276093917891,
+      "coverage": 0.001465370970229832,
+      "samples": 38
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age > 1.500000 AND cb_person_default_on_file_N <= 0.500000 AND loan_percent_income > 1.000000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.5883241140003194,
+      "coverage": 0.0002699367576739164,
+      "samples": 7
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT > 0.500000 AND person_income > 0.500000 AND loan_amnt <= 3.500000 AND loan_int_rate > 3.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.574802272022631,
+      "coverage": 0.001966682091624248,
+      "samples": 51
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate <= 3.500000 AND loan_amnt > 1.500000 AND cb_person_default_on_file_Y > 0.500000 AND loan_grade_C > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5651272711105388,
+      "coverage": 0.0030464291223199136,
+      "samples": 79
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C <= 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_emp_length > 1.500000 AND loan_intent_DEBTCONSOLIDATION <= 0.500000 AND loan_intent_MEDICAL <= 0.500000 AND person_income > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5624899499299602,
+      "coverage": 0.03235384852691655,
+      "samples": 839
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_int_rate <= 0.500000 AND loan_amnt <= 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5594283129153049,
+      "coverage": 0.008753663427425574,
+      "samples": 227
+    },
+    "created_at": "2026-02-21T23:40:14.371378"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION > 0.500000 AND loan_grade_E <= 0.500000 AND person_emp_length > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND loan_amnt <= 3.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.5435692439770349,
+      "coverage": 0.0006169983032546661,
+      "samples": 16
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income > 1.500000 AND loan_amnt <= 0.500000 AND loan_percent_income <= 2.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.5381112324954274,
+      "coverage": 0.002352306031158414,
+      "samples": 61
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_grade_D <= 0.500000 AND loan_intent_VENTURE <= 0.500000 AND loan_int_rate > 0.500000 AND loan_percent_income <= 2.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5333457450994342,
+      "coverage": 0.030579978405059386,
+      "samples": 793
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL > 0.500000 AND loan_grade_C <= 0.500000 AND cb_person_default_on_file_Y <= 0.500000 AND loan_grade_D > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5282105018046339,
+      "coverage": 0.0005784359093012494,
+      "samples": 15
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income > 0.500000 AND person_home_ownership_OWN <= 0.500000 AND person_income <= 3.500000 AND person_home_ownership_MORTGAGE > 0.500000 AND person_age > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5258477451966941,
+      "coverage": 0.010141909609748574,
+      "samples": 263
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate <= 3.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT > 0.500000 AND person_home_ownership_RENT <= 0.500000 AND person_age > 1.500000 AND cb_person_default_on_file_N > 0.500000 AND person_emp_length > 1.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.5198420538135691,
+      "coverage": 0.001658182939996915,
+      "samples": 43
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income > 1.500000 AND loan_amnt > 0.500000 AND loan_intent_MEDICAL <= 0.500000",
+    "then": "loan_status_1",
+    "metrics": {
+      "probability": 0.5186505028077474,
+      "coverage": 0.0031621163041801637,
+      "samples": 82
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income <= 3.500000 AND loan_int_rate > 3.500000 AND loan_grade_C > 0.500000 AND person_income <= 0.500000 AND loan_intent_HOMEIMPROVEMENT <= 0.500000 AND loan_percent_income <= 1.500000 AND cb_person_cred_hist_length <= 3.500000 AND loan_intent_DEBTCONSOLIDATION > 0.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5064872852456888,
+      "coverage": 0.0005398735153478328,
+      "samples": 14
+    },
+    "created_at": "2026-02-21T23:40:14.372379"
+  },
+  {
+    "dataset": "credit",
+    "source": "DecisionTree",
+    "if": "loan_percent_income > 3.500000 AND person_home_ownership_RENT <= 0.500000 AND loan_int_rate > 3.500000 AND loan_intent_EDUCATION <= 0.500000 AND loan_intent_PERSONAL <= 0.500000 AND loan_intent_VENTURE > 0.500000 AND person_income > 0.500000 AND person_income > 1.500000",
+    "then": "loan_status_0",
+    "metrics": {
+      "probability": 0.5044128340200706,
+      "coverage": 0.001966682091624248,
+      "samples": 51
+    },
+    "created_at": "2026-02-21T23:40:14.373381"
+  }
+]

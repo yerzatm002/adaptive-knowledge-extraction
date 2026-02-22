@@ -1,0 +1,242 @@
+[
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "default_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND loan_no AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.057874932807740545,
+      "confidence": 0.6031746031746031,
+      "lift": 5.447115631581651
+    },
+    "created_at": "2026-02-21T23:40:14.373381"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "poutcome_success",
+    "then": "default_no AND deposit_deposit=yes AND loan_no AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.057874932807740545,
+      "confidence": 0.6031746031746031,
+      "lift": 5.447115631581651
+    },
+    "created_at": "2026-02-21T23:40:14.373381"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "poutcome_success",
+    "then": "deposit_deposit=yes AND loan_no AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.057874932807740545,
+      "confidence": 0.6031746031746031,
+      "lift": 5.447115631581651
+    },
+    "created_at": "2026-02-21T23:40:14.374383"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND default_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND loan_no AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.052947500447948395,
+      "confidence": 0.6030612244897959,
+      "lift": 5.446091737665941
+    },
+    "created_at": "2026-02-21T23:40:14.374383"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND poutcome_success",
+    "then": "default_no AND deposit_deposit=yes AND loan_no AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.052947500447948395,
+      "confidence": 0.6030612244897959,
+      "lift": 5.446091737665941
+    },
+    "created_at": "2026-02-21T23:40:14.374383"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND poutcome_success",
+    "then": "deposit_deposit=yes AND loan_no AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.052947500447948395,
+      "confidence": 0.6030612244897959,
+      "lift": 5.446091737665941
+    },
+    "created_at": "2026-02-21T23:40:14.374383"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND loan_no AND poutcome_success",
+    "then": "default_no AND deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.052947500447948395,
+      "confidence": 0.6341201716738197,
+      "lift": 5.358099436959255
+    },
+    "created_at": "2026-02-21T23:40:14.374383"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND poutcome_success",
+    "then": "default_no AND deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.055635190826016846,
+      "confidence": 0.6336734693877552,
+      "lift": 5.3543249548116
+    },
+    "created_at": "2026-02-21T23:40:14.374383"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND default_no AND loan_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.052947500447948395,
+      "confidence": 0.6341201716738197,
+      "lift": 5.354046411666547
+    },
+    "created_at": "2026-02-21T23:40:14.375380"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND loan_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.052947500447948395,
+      "confidence": 0.6341201716738197,
+      "lift": 5.354046411666547
+    },
+    "created_at": "2026-02-21T23:40:14.375380"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "loan_no AND poutcome_success",
+    "then": "default_no AND deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.057874932807740545,
+      "confidence": 0.6333333333333333,
+      "lift": 5.351450921019429
+    },
+    "created_at": "2026-02-21T23:40:14.375380"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND default_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.055635190826016846,
+      "confidence": 0.6336734693877552,
+      "lift": 5.35027478464911
+    },
+    "created_at": "2026-02-21T23:40:14.375380"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "contact_cellular AND poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.055635190826016846,
+      "confidence": 0.6336734693877552,
+      "lift": 5.35027478464911
+    },
+    "created_at": "2026-02-21T23:40:14.375380"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "default_no AND loan_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.057874932807740545,
+      "confidence": 0.6333333333333333,
+      "lift": 5.347402924861321
+    },
+    "created_at": "2026-02-21T23:40:14.375380"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "loan_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.057874932807740545,
+      "confidence": 0.6333333333333333,
+      "lift": 5.347402924861321
+    },
+    "created_at": "2026-02-21T23:40:14.375380"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "poutcome_success",
+    "then": "default_no AND deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.060652212865077944,
+      "confidence": 0.6321195144724556,
+      "lift": 5.341194565133648
+    },
+    "created_at": "2026-02-21T23:40:14.376379"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "default_no AND poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.060652212865077944,
+      "confidence": 0.6321195144724556,
+      "lift": 5.337154327187253
+    },
+    "created_at": "2026-02-21T23:40:14.376379"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "poutcome_success",
+    "then": "deposit_deposit=yes AND previous_(1.0, 58.0]",
+    "metrics": {
+      "support": 0.060652212865077944,
+      "confidence": 0.6321195144724556,
+      "lift": 5.337154327187253
+    },
+    "created_at": "2026-02-21T23:40:14.376379"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "age_(17.999, 31.0] AND campaign_(0.999, 2.0] AND contact_cellular AND housing_no",
+    "then": "default_no AND deposit_deposit=yes AND marital_single",
+    "metrics": {
+      "support": 0.051155706862569435,
+      "confidence": 0.6267837541163557,
+      "lift": 3.6997145761220316
+    },
+    "created_at": "2026-02-21T23:40:14.376379"
+  },
+  {
+    "dataset": "bank",
+    "source": "Apriori",
+    "if": "age_(17.999, 31.0] AND campaign_(0.999, 2.0] AND contact_cellular AND default_no AND housing_no",
+    "then": "deposit_deposit=yes AND marital_single",
+    "metrics": {
+      "support": 0.051155706862569435,
+      "confidence": 0.6323366555924697,
+      "lift": 3.69149673102675
+    },
+    "created_at": "2026-02-21T23:40:14.376379"
+  }
+]

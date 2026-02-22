@@ -1,0 +1,3002 @@
+[
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "exemptions grant musicians",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.378379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "companies sign memorandum",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.378379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "international accuse facebook",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.378379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it make antenna",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.378379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it serve resource",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.378379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "korea pass bill",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.378379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "motors announce deal",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.378379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "musk add billion",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "nikola accuse fraud",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "sharma take media",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "system recognise solution",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "this be time",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "trump have followers",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "trump lose followers",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "website measure declines",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 2
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "vaughan take twitter",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "vehicles design collaboration",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.379377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "vikram tell times",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "virat be batsmen",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "virat grab spot",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "vote come recommendation",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "walker take instagram",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "waves disturb microorganisms",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "asteroid move earth",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "atlas question need",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "atlas say letter",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "authorities announce ban",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.380383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "authorities direct closure",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "bachchan charge crore",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ban be part",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "barcelona pay fine",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "barton surround monkeys",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "batsman become batsman",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "beckham say father",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "bhatnagar tell times",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "biden nominate tanden",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.381382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "biden urge antitrust",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "bill require iran",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "board announce cases",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "board create response",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "board criticise broadcaster",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "board issue complaint",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "body fin million",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "body find side",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "body have signs",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.382378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "body pass law",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "bonus pay addition",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "candice suggest show",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "cannabis be category",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "cases violate nudity",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "cavani use negrito",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "cayenne be some",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "cell break window",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ceo create policy",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.383376"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ceo tell springer",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "channel claim battle",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "channel have problem",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "channel take battle",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "chappell urge icc",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "children sprout hair",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "china connect reactor",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "china launch spacecraft",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "china report cases",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.384377"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "china say response",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "chopra share picture",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "chouhan suggest campaign",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "clip present beckham",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "company acquire slack",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "company announce exit",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "company develop version",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "company raise forecast",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "complaint file paul",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.385379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "complaint file station",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "composers marry ceremony",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "conflict displace people",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "corporation halt operations",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "country report cases",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "couple twin attire",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "court stay tribunal",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "currency fall months",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.386378"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "d'amelio make investment",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "d'souza mention interview",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "dalma sit box",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "dapena receive threats",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "dapena sit pitch",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "data base cases",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "delivery miss moises",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "department discuss objectives",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.387379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "department include huawei",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "department say monday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "developers say tuesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "development push surge",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "discoverer capture video",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "disney+ win app",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "driver buy porsche",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "duo stitch runs",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "dwayne dismiss kemar",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.388382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "efficacy be %",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "eshwarappa say saturday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ex be personalities",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ex smash sixes",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "experts discuss project",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "facebook ban ads",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "facebook pay publishers",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "family say wednesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "farmers call border",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.389383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ferguson develop application",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "fernandez share space",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "fighting erupt september",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "film follow melvin",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "films have world",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "finch name carey",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "flipkart announce off",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "flipkart remain shareholder",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.390382"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "formula take media",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "france join australia",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "france report cases",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "frappart become referee",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "frog find tract",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "funding lead coatue",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gadkari ask stakeholders",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gambhir describe bumrah",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ganguly praise pandya",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gates have worth",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gebremichael accuse army",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.391381"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gehlot write letter",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "german sign agreement",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "germany report deaths",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ghebreyesus say who",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ghosh say saturday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ghosn flee lebanon",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gill take instagram",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gove say tuesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government award bsa",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government describe tweet",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.392379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government draft proposal",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government invoke section",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government mess people",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government order wikipedia",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government say this",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "government tell court",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "grosjean credit device",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "grosjean say video",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "group rule monday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gst reduce %",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.393379"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "guidelines cover types",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "gulati compare exit",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "haarsh reply trolls",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "hailey have things",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "halo be ring",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "hardik pandya scored",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "harley enter deal",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "harry describe coronavirus",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "harry urge individuals",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "hasan send trophy",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.394383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "hazlewood take wickets",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he ask me",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he back argument",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he be one",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he call alliance",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he call people",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he confirm twitter",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he die home",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he hand fine",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.395383"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he lead championship",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.396385"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he leave office",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.396385"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he make statement",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.396385"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he miss flight",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.396385"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he miss prix",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.396385"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he release squad",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.396385"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he say daughter",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.396385"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he say letter",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he tweet meeting",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he urge government",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he urge leaders",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he write milta",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he write statement",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "hogg criticise bowlers",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "houses fit systems",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "hyundai face lawsuit",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "hyundai recall evs",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "i be hate",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "i be isolation",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "i bow ji",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "i go appearance",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "i meet divya",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "i take money",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.397123"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "i tell myself",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "icc release rankings",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "inc cross billion",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "incentive be %",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "india call states",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "india defeat australia",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "india find batsman",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "india lose odis",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "india make gains",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.398829"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "india record reductions",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "india struggle 152/5",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "instagram say tuesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it add disclaimer",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it be attempt",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it be check",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it be honour",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it come display",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it connect top",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.399841"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it contain names",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it demand ban",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it discover year",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it expand policy",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it have impact",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it involve vehicle",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it say vehicles",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "it take kind",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "javadekar say friday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "johnson announce ban",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "johnson say approval",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.400839"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kangana share link",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.401899"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kazianis be expert",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kemar hit maximums",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "khan talk comparisons",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kia deny allegations",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kingdom back protest",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kiyota take role",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kohli drop position",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "he thank friends",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kovind urge citizens",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.402053"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "kustomer value million",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "lai arrest august",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "lai charge fraud",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "lai deny bail",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "law require government",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "lawsuit cost hyundai",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "lawsuit file us",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "leader call monday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "leamon place series",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "leamon send information",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.403058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "levey tell reuters",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "libra rebrande diem",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "lohan say podcast",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "macron say tuesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "mahindra revive jawa",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "manjrekar be team",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "manjrekar praise hardik",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "matondkar contest elections",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "matondkar join sena",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "meadow add celebration",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.404061"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "merkel say wednesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "messi take strip",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "metal appear mountain",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "mexico report cases",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "microsoft pull support",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "microsoft respond criticism",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ministry release video",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ministry say tuesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.405087"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "model hit pole",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "moderna say monday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "mondal say ranajit",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "morrison demand apology",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "motor declare lockout",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "motors agree million",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "209(158 be scores",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "move combine billion",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "move come crisis",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "move come dispute",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.406066"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "actor arshad warsi",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "musk pass gates",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "musk say tuesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "musk trade insults",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "naidu suspend day",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "namibia auction animals",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "nations say tuesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "nations say wednesday",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ncri be bloc",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "ncri reject accusations",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.407065"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "nhtsa open investigation",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "nick share pictures",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "actors manoj bajpayee",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "nissan sell stake",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "nlrb find policies",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "notebooks remove storage",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "octopus find fisherman",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "officials tell bloomberg",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "old add billion",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.408060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "old create history",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "old make debut",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "old reach singles",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "one get activity",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "one put use",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "oneplus join hands",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "orsingher test february",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "owners report issues",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "page be relations",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "pakistan deal wave",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.409058"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "pandya put partnership",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.410060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "pandya score runs",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.410060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "panel hold consultations",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.410060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "park feature rollercoaster",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.410060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "parliament advance bill",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.410060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "parliament pass bill",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.410060"
+  },
+  {
+    "dataset": "news",
+    "source": "NLP",
+    "if": "pathfinder be collection",
+    "then": "knowledge_rule",
+    "metrics": {
+      "freq": 1
+    },
+    "created_at": "2026-02-21T23:40:14.410060"
+  }
+]

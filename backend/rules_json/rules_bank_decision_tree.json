@@ -1,0 +1,698 @@
+[
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND month_aug <= 0.500000 AND job_technician <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00996752155896517,
+      "samples": 89
+    },
+    "created_at": "2026-02-21T23:40:14.341678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration > 0.500000 AND housing_no > 0.500000 AND job_technician <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0033598387277410683,
+      "samples": 30
+    },
+    "created_at": "2026-02-21T23:40:14.341678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration <= 0.500000 AND campaign > 1.500000 AND age > 2.000000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00044797849703214247,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.341678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration <= 0.500000 AND month_may > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00044797849703214247,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration <= 0.500000 AND month_may <= 0.500000 AND month_apr > 0.500000 AND day > 2.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.0003359838727741068,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration > 0.500000 AND housing_no <= 0.500000 AND day > 3.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00022398924851607123,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration <= 0.500000 AND month_may <= 0.500000 AND month_apr <= 0.500000 AND job_housemaid > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00022398924851607123,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration <= 2.500000 AND month_oct <= 0.500000 AND poutcome_unknown <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00022398924851607123,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration <= 2.500000 AND month_oct > 0.500000 AND education_tertiary > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00022398924851607123,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration > 0.500000 AND job_retired <= 0.500000 AND job_entrepreneur > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration > 0.500000 AND job_retired > 0.500000 AND day <= 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration > 0.500000 AND job_retired > 0.500000 AND day > 0.500000 AND month_jun > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.342679"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND housing_no <= 0.500000 AND job_entrepreneur > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.343678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration <= 2.500000 AND month_oct > 0.500000 AND education_tertiary <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.343678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND month_aug > 0.500000 AND education_primary > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.343678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown > 0.500000 AND marital_divorced <= 0.500000 AND age <= 0.500000 AND month_feb > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.343678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown > 0.500000 AND marital_divorced > 0.500000 AND month_jul > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 1.0,
+      "coverage": 0.00011199462425803562,
+      "samples": 1
+    },
+    "created_at": "2026-02-21T23:40:14.343678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND housing_no > 0.500000 AND month_nov <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.976715773948743,
+      "coverage": 0.03908612386605443,
+      "samples": 349
+    },
+    "created_at": "2026-02-21T23:40:14.343678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration <= 2.500000 AND month_oct <= 0.500000 AND poutcome_unknown > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.9685983032522948,
+      "coverage": 0.031582484040766044,
+      "samples": 282
+    },
+    "created_at": "2026-02-21T23:40:14.343678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration <= 0.500000 AND month_apr <= 0.500000 AND month_oct <= 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.9508598260324861,
+      "coverage": 0.17627953858214807,
+      "samples": 1574
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown > 0.500000 AND marital_divorced > 0.500000 AND month_jul <= 0.500000 AND job_entrepreneur <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.9496890495499245,
+      "coverage": 0.006047709709933923,
+      "samples": 54
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration > 0.500000 AND job_retired <= 0.500000 AND job_entrepreneur <= 0.500000 AND contact_cellular > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.9467121752163126,
+      "coverage": 0.01713517751147945,
+      "samples": 153
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND month_aug <= 0.500000 AND job_technician > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.9301895820614781,
+      "coverage": 0.001455930115354463,
+      "samples": 13
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND housing_no <= 0.500000 AND job_entrepreneur <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.913728227368619,
+      "coverage": 0.01534326352335088,
+      "samples": 137
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration <= 0.500000 AND month_apr > 0.500000 AND housing_yes > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.9051801738161651,
+      "coverage": 0.006495688206966065,
+      "samples": 58
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND month_apr <= 0.500000 AND marital_single > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.9017769732398017,
+      "coverage": 0.042557957218053534,
+      "samples": 380
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration <= 0.500000 AND campaign <= 1.500000 AND age > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8988162142771733,
+      "coverage": 0.0020159032366446413,
+      "samples": 18
+    },
+    "created_at": "2026-02-21T23:40:14.344683"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND month_aug > 0.500000 AND education_primary <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8988162142771732,
+      "coverage": 0.0010079516183223206,
+      "samples": 9
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration > 0.500000 AND housing_yes > 0.500000 AND month_oct <= 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.8952804989997654,
+      "coverage": 0.08343599507223654,
+      "samples": 745
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown > 0.500000 AND marital_divorced <= 0.500000 AND age <= 0.500000 AND month_feb <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8911744847763882,
+      "coverage": 0.0075036398252883866,
+      "samples": 67
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND month_apr > 0.500000 AND day > 2.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8899875564140186,
+      "coverage": 0.006495688206966065,
+      "samples": 58
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration > 0.500000 AND housing_no <= 0.500000 AND day <= 3.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8860091063394132,
+      "coverage": 0.0008959569940642849,
+      "samples": 8
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success > 0.500000 AND housing_no > 0.500000 AND month_nov > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8822842039368436,
+      "coverage": 0.003471833351999104,
+      "samples": 31
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND month_apr <= 0.500000 AND marital_single <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8552773555511388,
+      "coverage": 0.08567588755739725,
+      "samples": 765
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration > 2.500000 AND month_may > 0.500000 AND job_entrepreneur <= 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.829639040952386,
+      "coverage": 0.01937506999664016,
+      "samples": 173
+    },
+    "created_at": "2026-02-21T23:40:14.345678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown > 0.500000 AND marital_divorced <= 0.500000 AND age > 0.500000 AND month_jun > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8197306032515078,
+      "coverage": 0.01198342479560981,
+      "samples": 107
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration > 0.500000 AND housing_yes > 0.500000 AND month_oct > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.8162272510098597,
+      "coverage": 0.0022398924851607122,
+      "samples": 20
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration > 0.500000 AND housing_no > 0.500000 AND job_technician > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.7691132332878582,
+      "coverage": 0.00044797849703214247,
+      "samples": 4
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration > 0.500000 AND job_retired > 0.500000 AND day > 0.500000 AND month_jun <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.7691132332878581,
+      "coverage": 0.0013439354910964273,
+      "samples": 12
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration > 0.500000 AND housing_yes <= 0.500000 AND month_apr > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.7593727269733984,
+      "coverage": 0.0081756075708366,
+      "samples": 73
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration > 2.500000 AND month_may <= 0.500000 AND housing_no > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.7348228939621562,
+      "coverage": 0.005935715085675888,
+      "samples": 53
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND housing_no > 0.500000 AND balance > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.7319241435443512,
+      "coverage": 0.14604099003247845,
+      "samples": 1304
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND month_apr > 0.500000 AND day <= 2.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.7226161418514109,
+      "coverage": 0.009743532310449098,
+      "samples": 87
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration <= 0.500000 AND campaign > 1.500000 AND age <= 2.000000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.6895134659132605,
+      "coverage": 0.0003359838727741068,
+      "samples": 3
+    },
+    "created_at": "2026-02-21T23:40:14.346676"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown > 0.500000 AND marital_divorced <= 0.500000 AND age > 0.500000 AND month_jun <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.6874412208448284,
+      "coverage": 0.01735916675999552,
+      "samples": 155
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND housing_no <= 0.500000 AND duration <= 2.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.6803145692944119,
+      "coverage": 0.05084555941314817,
+      "samples": 454
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration > 0.500000 AND housing_yes <= 0.500000 AND month_apr <= 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.6719862901468128,
+      "coverage": 0.08142009183559189,
+      "samples": 727
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration <= 0.500000 AND month_apr > 0.500000 AND housing_yes <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.6491999005057625,
+      "coverage": 0.0035838279762571397,
+      "samples": 32
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration <= 0.500000 AND month_may <= 0.500000 AND month_apr <= 0.500000 AND job_housemaid <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.6333304445792529,
+      "coverage": 0.005151752715869639,
+      "samples": 46
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration > 2.500000 AND month_may > 0.500000 AND job_entrepreneur > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.6248448306437312,
+      "coverage": 0.0005599731212901781,
+      "samples": 5
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration > 0.500000 AND job_retired <= 0.500000 AND job_entrepreneur <= 0.500000 AND contact_cellular <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.5968556455454979,
+      "coverage": 0.0007839623698062493,
+      "samples": 7
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown > 0.500000 AND duration > 2.500000 AND month_may <= 0.500000 AND housing_no <= 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.5849456685783279,
+      "coverage": 0.006607682831224101,
+      "samples": 59
+    },
+    "created_at": "2026-02-21T23:40:14.347677"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND housing_no <= 0.500000 AND duration > 2.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.5640395561570298,
+      "coverage": 0.05431739276514727,
+      "samples": 485
+    },
+    "created_at": "2026-02-21T23:40:14.348678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar > 0.500000 AND duration <= 0.500000 AND campaign <= 1.500000 AND age <= 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.545618673028564,
+      "coverage": 0.0007839623698062493,
+      "samples": 7
+    },
+    "created_at": "2026-02-21T23:40:14.348678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success > 0.500000 AND duration <= 0.500000 AND month_may <= 0.500000 AND month_apr > 0.500000 AND day <= 2.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.5261507447642513,
+      "coverage": 0.00022398924851607123,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.348678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration > 3.500000 AND contact_unknown > 0.500000 AND marital_divorced > 0.500000 AND month_jul <= 0.500000 AND job_entrepreneur > 0.500000",
+    "then": "deposit_yes",
+    "metrics": {
+      "probability": 0.5261507447642513,
+      "coverage": 0.00022398924851607123,
+      "samples": 2
+    },
+    "created_at": "2026-02-21T23:40:14.348678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration <= 1.500000 AND poutcome_success <= 0.500000 AND month_mar <= 0.500000 AND duration <= 0.500000 AND month_apr <= 0.500000 AND month_oct > 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.525712510677953,
+      "coverage": 0.0032478441034830326,
+      "samples": 29
+    },
+    "created_at": "2026-02-21T23:40:14.348678"
+  },
+  {
+    "dataset": "bank",
+    "source": "DecisionTree",
+    "if": "duration > 1.500000 AND duration <= 3.500000 AND contact_unknown <= 0.500000 AND poutcome_success <= 0.500000 AND housing_no > 0.500000 AND balance <= 0.500000",
+    "then": "deposit_no",
+    "metrics": {
+      "probability": 0.5248287720249084,
+      "coverage": 0.026430731324896404,
+      "samples": 236
+    },
+    "created_at": "2026-02-21T23:40:14.348678"
+  }
+]
